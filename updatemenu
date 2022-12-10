@@ -7,30 +7,9 @@ rm -rf ipsaya
 rm -rf vmessmenu
 rm -rf vlessmenu
 rm -rf grpcmenu
-rm -rf grpcupdate
-rm -rf trmenu
-rm -rf trgomenu
-rm -rf setmenu
-rm -rf slowdnsmenu
-rm -rf running
-rm -rf copyrepo
 
 # download menu
 cd /usr/bin
-rm -rf updatemenu
-rm -rf menu
-rm -rf delexp
-rm -rf restart
-rm -rf speedtest
-rm -rf clear-log
-rm -rf clear-ram
-rm -rf backup
-rm -rf xp
-rm -rf cek-service
-rm -rf add-trojan
-rm -rf menu-trojan
-rm -rf del-trojan
-rm -rf renew-trojan
 wget -O menu "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/menu"
 wget -O menu-trojan "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/menu-trojan"
 wget -O add-trojan "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/add-trojan"
@@ -41,7 +20,6 @@ wget -O cek-service "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/
 wget -O xp "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/xp
 wget -O updatemenu "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/updatemenu
 wget -O xp "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/xp
-
 #permision
 cd /usr/bin
 chmod +x menu
