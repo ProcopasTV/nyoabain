@@ -1,0 +1,63 @@
+#!/bin/bash
+# ==========================================
+# Color
+# hapus menu
+rm -rf menu
+rm -rf ipsaya
+rm -rf vmessmenu
+rm -rf vlessmenu
+rm -rf grpcmenu
+rm -rf grpcupdate
+rm -rf trmenu
+rm -rf trgomenu
+rm -rf setmenu
+rm -rf slowdnsmenu
+rm -rf running
+rm -rf copyrepo
+
+# download menu
+cd /usr/bin
+rm -rf updatemenu
+rm -rf menu
+rm -rf delexp
+rm -rf restart
+rm -rf speedtest
+rm -rf clear-log
+rm -rf clear-ram
+rm -rf backup
+rm -rf xp
+rm -rf cek-service
+rm -rf add-trojan
+rm -rf menu-trojan
+rm -rf del-trojan
+rm -rf renew-trojan
+wget -O menu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/menu.sh"
+wget -O ipsaya "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ipsaya.sh"
+wget -O vmessmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/vmessmenu.sh"
+wget -O vlessmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/vlessmenu.sh"
+wget -O xray-grpc "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/grpc/xray-grpc.sh"
+wget -O grpcmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/grpcmenu.sh"
+wget -O grpcupdate "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/grpcupdate.sh"
+wget -O trmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/trmenu.sh"
+wget -O trgomenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/trgomenu.sh"
+wget -O setmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/setmenu.sh"
+wget -O updatemenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/updatemenu.sh"
+wget -O slhost "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/ssh/slhost.sh"
+wget -O sl-download-info "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/contohinfo/sl-download-info.sh"
+wget -O menuinfo "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/menuinfo.sh"
+#permision
+cd /usr/bin
+chmod +x menu
+chmod +x delexp
+chmod +x restart
+chmod +x speedtest
+chmod +x clear-log
+chmod +x clear-ram
+chmod +x backup
+chmod +x xp
+chmod +x cek-service
+chmod +x add-trojan
+chmod +x menu-trojan
+chmod +x del-trojan
+chmod +x renew-trojan
+cd
