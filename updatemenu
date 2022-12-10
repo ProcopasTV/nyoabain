@@ -38,13 +38,10 @@ wget -O del-trojan "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/d
 wget -O renew-trojan "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/renew-trojan"
 wget -O delexp "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/delexp"
 wget -O cek-service "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/cek-service"
-wget -O trmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/trmenu.sh"
-wget -O trgomenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/trgomenu.sh"
-wget -O setmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/setmenu.sh"
-wget -O updatemenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/updatemenu.sh"
-wget -O slhost "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/ssh/slhost.sh"
-wget -O add-trojan "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/add-trojan"
-wget -O menuinfo "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/menuinfo.sh"
+wget -O xp "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/xp
+wget -O updatemenu "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/updatemenu
+wget -O xp "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/xp
+
 #permision
 cd /usr/bin
 chmod +x menu
