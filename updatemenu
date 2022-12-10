@@ -31,7 +31,7 @@ rm -rf add-trojan
 rm -rf menu-trojan
 rm -rf del-trojan
 rm -rf renew-trojan
-wget -O menu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/ProcopasTV/nyoabain/main/menu"
 wget -O ipsaya "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ipsaya.sh"
 wget -O vmessmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/vmessmenu.sh"
 wget -O vlessmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/vlessmenu.sh"
